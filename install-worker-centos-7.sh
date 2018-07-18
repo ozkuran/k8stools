@@ -28,3 +28,5 @@ EOF
 
 yum  install kubeadm docker -y
 systemctl restart docker && systemctl enable docker
+systemctl restart kubelet && systemctl enable kubelet
+
